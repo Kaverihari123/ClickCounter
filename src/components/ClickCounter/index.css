@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f5f8;
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #2d3a35;
+}
+.count {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #c20a72;
+}
+.msg {
+  font-size: 15px;
+  font-family: Roboto;
+  color: #2d3a35;
+}
+.button {
+  height: 40px;
+  width: 120px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: Roboto;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+  .count {
+    font-size: 50px;
+  }
+  .msg {
+    font-size: 25px;
+  }
+}
